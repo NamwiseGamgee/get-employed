@@ -1,0 +1,8 @@
+.active {
+    background: #7e90fe;
+    padding: 0 8px;
+    border-radius: 6px;
+    color: white;
+    font-weight: 500;
+    transition: linear 0.2s;
+}
