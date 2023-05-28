@@ -2,6 +2,7 @@ import React from 'react';
 import corporateMan from '../../Assets/All Images/P3OLGJ1 copy 1.png';
 import JobCategory from '../JobCategory/JobCategory';
 import { useLoaderData } from 'react-router-dom';
+import FeaturedJobs from '../FeaturedJobs/FeaturedJobs';
 
 const Home = () => {
 
@@ -34,6 +35,15 @@ const Home = () => {
                             job={job}
                         ></JobCategory>)
                     }
+                </div>
+            </div>
+            <div>
+                <div className='text-center mb-8'>
+                    <h2 className='font-bold text-5xl text-[#1a1919] mb-4'>Featured Jobs</h2>
+                    <h6 className='text-[#757575] font-medium'>Explore thousands of job opportunities all over the world</h6>
+                </div>
+                <div>
+                    <FeaturedJobs></FeaturedJobs>
                 </div>
             </div>
         </div>

@@ -1,0 +1,183 @@
+[
+    {
+      "id": 1,
+      "companyLogo": "Logo/tesla.png",
+      "jobTitle": "Software Engineer",
+      "companyName": "Tesla",
+      "remoteOrOnsite": "Remote",
+      "location": "Tokyo, Japan",
+      "fullOrPartTime": "Full-time",
+      "salary": "$80,000 - $100,000",
+      "jobDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "jobResponsibility": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "educationalRequirements": "Bachelor's degree in Computer Science or related field",
+      "experiences": "Minimum 3 years of experience in software development",
+      "contactInformation": {
+        "email": "info@abccompany.com",
+        "phone": "123-456-7890"
+      }
+    },
+    {
+      "id": 2,
+      "companyLogo": "Logo/netflix.png",
+      "jobTitle": "Data Analyst",
+      "companyName": "Netflix",
+      "remoteOrOnsite": "Onsite",
+      "location": "Beijing, China",
+      "fullOrPartTime": "Part-time",
+      "salary": "$50,000 - $70,000",
+      "jobDescription": "Collect and store data on sales numbers, market research, logistics, linguistics, or other behaviors. Bring technical expertise to ensure the quality and accuracy of that data, then process, design, and present it in ways to help people, businesses, and organizations make better decisions.",
+      "jobResponsibility": "Deep analysis of data and then determining the best way to represent it visually to managers and stakeholders. Also ensure quality assurance and process documentation and define Key Performance Indicators (KPIs).",
+      "educationalRequirements": "Bachelor's degree in Data analytics or related field",
+      "experiences": "Minimum 2 years of experience in data analysis",
+      "contactInformation": {
+        "email": "netflixnchill@hr.com",
+        "phone": "856-654-7854"
+      }
+    },
+    {
+      "id": 3,
+      "companyLogo": "Logo/tech-support.jpg",
+      "jobTitle": "Tech Support",
+      "companyName": "BIG Corporation",
+      "remoteOrOnsite": "Onsite",
+      "location": "Dhaka, Bangladesh",
+      "fullOrPartTime": "Full-time",
+      "salary": "$50,000 - $70,000",
+      "jobDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "jobResponsibility": "Identifying hardware and software solutions. Troubleshooting technical issues. Diagnosing and repairing faults. Resolving network issues.",
+      "educationalRequirements": "Bachelor's degree in Computer Science or related field",
+      "experiences": "No Experience needed",
+      "contactInformation": {
+        "email": "big@xyz.com",
+        "phone": "584-654-3210"
+      }
+    },
+    {
+      "id": 4,
+      "companyLogo": "Logo/sentinels.png",
+      "jobTitle": "Professional Valorant player",
+      "companyName": "Sentinels",
+      "remoteOrOnsite": "Remote",
+      "location": "Alberta, Canada",
+      "fullOrPartTime": "Full-time",
+      "salary": "$10,000 - $12,000",
+      "jobDescription": "You'll have to play minimum 8 hours a day.",
+      "jobResponsibility": "Qualifying for LAN events and showing up for scrims.",
+      "educationalRequirements": "No Education needed, just being good at Valorant will do.",
+      "experiences": "Minimum Radiant ranked players.",
+      "contactInformation": {
+        "email": "sentinels@xyzcorp.com",
+        "phone": "987-654-3210"
+      }
+    },
+    {
+      "id": 5,
+      "companyLogo": "Logo/golden-harvest.jpg",
+      "jobTitle": "Content Writer",
+      "companyName": "Golden Harvest",
+      "remoteOrOnsite": "Onsite",
+      "location": "Khulna, Bangladesh",
+      "fullOrPartTime": "Part-time",
+      "salary": "$9,000 - $15,000",
+      "jobDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "jobResponsibility": "You will have to write long ass contents on behalf of our weekly activities.",
+      "educationalRequirements": "Bachelor's degree in English",
+      "experiences": "Minimum 6 months of experience in Content Writing",
+      "contactInformation": {
+        "email": "goldenharvest@xyzcorp.com",
+        "phone": "012121548515"
+      }
+    },
+    {
+      "id": 6,
+      "companyLogo": "Logo/sultans.jpg",
+      "jobTitle": "Professional Chef",
+      "companyName": "Sultans Dine",
+      "remoteOrOnsite": "Onsite",
+      "location": "Oslo, Nowway",
+      "fullOrPartTime": "Full-time",
+      "salary": "$20,000 - $30,000",
+      "jobDescription": "Need to make delicious food for our customers.",
+      "jobResponsibility": "Be on time, don't break things in the kitchen.",
+      "educationalRequirements": "No Education needed, just being good at coocking will do.",
+      "experiences": "You must have experience of being a professional coock beforehand.",
+      "contactInformation": {
+        "email": "sultans@gmail.com",
+        "phone": "456-654-4845"
+      }
+    },
+    {
+      "id": 7,
+      "companyLogo": "Logo/bsrm.png",
+      "jobTitle": "Project Manager",
+      "companyName": "BSRM Company LTD",
+      "remoteOrOnsite": "Onsite",
+      "location": "Chittagong, Bangladesh",
+      "fullOrPartTime": "Full-time",
+      "salary": "$35,000 - $50,000",
+      "jobDescription": "Have to deal with chaotic environment all around you.",
+      "jobResponsibility": "Meeting with clients, documenting their needs, coming up with new ideas constantly to optimize the working flow.",
+      "educationalRequirements": "Bachelor's degree in Marketing or related field",
+      "experiences": "Minimum 2 years of experience in Sales.",
+      "contactInformation": {
+        "email": "bsrmextreme@gmail.com",
+        "phone": "5745-454-3210"
+      }
+    },
+    {
+      "id": 8,
+      "companyLogo": "Logo/mkbhd.png",
+      "jobTitle": "Video Editor",
+      "companyName": "MKBHD LTD",
+      "remoteOrOnsite": "Remote",
+      "location": "Orlando, Canada",
+      "fullOrPartTime": "Part-time",
+      "salary": "$17,000 - $20,000",
+      "jobDescription": "Vide editing for youtube and all other social platforms.",
+      "jobResponsibility": "You will have to make crisp and eye-catching videos for the youtube audience mainly. Also I post tiktok videos every now and then, you'll have to edit them too.",
+      "educationalRequirements": "Have to have good English Speaking skills",
+      "experiences": "No Experience needed, send me some projects you have done, if they're good enough, you will get hired.",
+      "contactInformation": {
+        "email": "shop.mkbhd@gmail.com",
+        "phone": "488-125-1564"
+      }
+    },
+    {
+      "id": 9,
+      "companyLogo": "Logo/google.png",
+      "jobTitle": "NLP Expert",
+      "companyName": "Google",
+      "remoteOrOnsite": "Onsite",
+      "location": "Buenos Aires, Argentina",
+      "fullOrPartTime": "Full-time",
+      "salary": "$27,000 - $47,000",
+      "jobDescription": "We need an NLP expert who is flexible in thinking and very efficient with coding.",
+      "jobResponsibility": "Makig new ChatBots for different clients as per their demand.",
+      "educationalRequirements": "Bachelor's degree in Computer Science or related field",
+      "experiences": "No Experience needed, we will do an interview on you, if you're good enough, you're old enough.",
+      "contactInformation": {
+        "email": "google@yahoo.com",
+        "phone": "878-878-9641"
+      }
+    },
+    {
+      "id": 10,
+      "companyLogo": "Logo/ispahani.jpg",
+      "jobTitle": "Accountant",
+      "companyName": "Ispahani LTD",
+      "remoteOrOnsite": "Onsite",
+      "location": "Kuakata, Bangladesh",
+      "fullOrPartTime": "Full-time",
+      "salary": "$50,000 - $60,000",
+      "jobDescription": "Helps us make critical financial decisions by collecting, tracking, and correcting the company's finances. ",
+      "jobResponsibility": "Keep track of all the financial activities inside our company.",
+      "educationalRequirements": "Bachelor's degree in Accounting or related field",
+      "experiences": "Minimum 2 years of experience as an Accountant",
+      "contactInformation": {
+        "email": "ispahani@bd.co",
+        "phone": "547-564-1360"
+      }
+    }
+  ]
+  

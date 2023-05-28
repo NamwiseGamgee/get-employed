@@ -12,6 +12,7 @@ import Home from './Components/Home/Home';
 import Statistics from './Components/Statistics/Statistics';
 import AppliedJobs from './Components/AppliedJobs/AppliedJobs';
 import Blogs from './Components/Blogs/Blogs';
+import FeaturedJobs from './Components/FeaturedJobs/FeaturedJobs';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -25,6 +26,10 @@ const router = createBrowserRouter([
         path: '/',
         element: <Home></Home>,
         loader: () => fetch('jobCategory.json')
+      },
+      {
+        path: '/',
+        element: <FeaturedJobs></FeaturedJobs>
       },
       {
         path: 'statistics',
