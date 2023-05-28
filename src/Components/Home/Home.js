@@ -42,7 +42,7 @@ const Home = () => {
                     <h2 className='font-bold text-5xl text-[#1a1919] mb-4'>Featured Jobs</h2>
                     <h6 className='text-[#757575] font-medium'>Explore thousands of job opportunities all over the world</h6>
                 </div>
-                <div>
+                <div className='mb-32'>
                     <FeaturedJobs></FeaturedJobs>
                 </div>
             </div>
