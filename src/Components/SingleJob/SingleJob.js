@@ -1,11 +1,17 @@
 import React from 'react';
 import { CiLocationOn, CiMoneyBill } from "react-icons/ci";
+import { useNavigate } from 'react-router-dom';
 
 const SingleJob = ({ job }) => {
     const { id, companyLogo, jobTitle, companyName, remoteOrOnSite, location, salary, fullOrPartTime } = job;
+
+    const navigate = useNavigate();
+    const handleNavigate = () => {
+        navigate(`/${id}`);
+    }
     return (
         <div>
-            <div className='mx-auto bg-[rgba(152,115,255,0.1)] p-10'>
+            <div className='mx-auto bg-[rgba(152,115,255,0.1)] p-10 rounded-lg'>
                 <div>
                     <img className='h-20 w-20 mb-8' src={companyLogo} alt="logo" />
                     <h2 className='text-2xl font-extrabold text-[#474747] mb-2'>{jobTitle}</h2>
@@ -25,7 +31,7 @@ const SingleJob = ({ job }) => {
                     </div>
 
                 </div>
-                <button className='font-semibold text-white py-2 px-3 bg-[#7e90fe] rounded-lg'>View Details</button>
+                <button onClick={handleNavigate} className='font-semibold text-white py-2 px-3 bg-[#7e90fe] rounded-lg'>View Details</button>
             </div>
         </div>
     );

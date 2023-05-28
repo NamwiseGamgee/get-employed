@@ -13,6 +13,7 @@ import Statistics from './Components/Statistics/Statistics';
 import AppliedJobs from './Components/AppliedJobs/AppliedJobs';
 import Blogs from './Components/Blogs/Blogs';
 import FeaturedJobs from './Components/FeaturedJobs/FeaturedJobs';
+import ViewDetails from './Components/ViewDetails/ViewDetails';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -30,6 +31,16 @@ const router = createBrowserRouter([
       {
         path: '/',
         element: <FeaturedJobs></FeaturedJobs>
+      },
+      {
+        path: '/:jobId',
+        element: <ViewDetails></ViewDetails>,
+        loader: async ({params}) => {
+          const res = await fetch('/featuredJobs.json');
+          const data = await res.json();
+          const indiData = data.find(d => d.id == params.jobId);
+          return indiData;
+        }
       },
       {
         path: 'statistics',
