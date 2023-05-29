@@ -1,8 +1,14 @@
 import React from 'react';
 import { MdLocationOn } from "react-icons/md";
 import { BsCoin } from "react-icons/bs";
+import { useNavigate } from 'react-router-dom';
 const JobCart = ({ job }) => {
     const { id, companyLogo, jobTitle, companyName, salary, location, remoteOrOnsite, fullOrPartTime } = job;
+
+    const navigate = useNavigate();
+    const viewDetailsHandler = () => {
+        navigate(`/${id}`);
+    }
     return (
         <div className='border lg:w-[1000px] mb-6 lg:mx-72'>
             <div className='p-8 flex justify-between items-center'>
@@ -26,7 +32,7 @@ const JobCart = ({ job }) => {
                     </div>
                 </div>
                 <div>
-                    <button className='font-extrabold text-xl text-white py-3 px-5 bg-[#7e90fe]'>View Details</button>
+                    <button onClick={viewDetailsHandler} className='font-extrabold text-xl text-white py-3 px-5 bg-[#7e90fe]'>View Details</button>
                 </div>
             </div>
         </div>
