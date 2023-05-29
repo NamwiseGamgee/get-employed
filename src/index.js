@@ -48,7 +48,12 @@ const router = createBrowserRouter([
       },
       {
         path: 'applied',
-        element: <AppliedJobs></AppliedJobs>
+        element: <AppliedJobs></AppliedJobs>,
+        loader: async () => {
+          const res = await fetch('/featuredJobs.json');
+          const data = await res.json();
+          return data;
+        }
       },
       {
         path: 'blogs',

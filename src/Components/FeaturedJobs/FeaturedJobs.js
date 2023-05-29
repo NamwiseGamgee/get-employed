@@ -7,6 +7,7 @@ const FeaturedJobs = () => {
     const [displayedJobs, setDisplayedJobs] = useState([]);
     const [showAllJobs, setShowAllJobs] = useState(false);
 
+    
 
     useEffect(() => {
         fetch('featuredJobs.json')

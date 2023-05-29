@@ -3,7 +3,7 @@ import { CiLocationOn, CiMoneyBill } from "react-icons/ci";
 import { useNavigate } from 'react-router-dom';
 
 const SingleJob = ({ job }) => {
-    const { id, companyLogo, jobTitle, companyName, remoteOrOnSite, location, salary, fullOrPartTime } = job;
+    const { id, companyLogo, jobTitle, companyName, remoteOrOnsite, location, salary, fullOrPartTime } = job;
 
     const navigate = useNavigate();
     const handleNavigate = () => {
@@ -19,7 +19,7 @@ const SingleJob = ({ job }) => {
 
                 </div>
                 <div className='mb-4 flex gap-4'>
-                    <button className='border border-[#7e90fe] px-4 py-2'>{remoteOrOnSite === 'Remote' ? "Remote" : "Onsite"}</button>
+                    <button className='border border-[#7e90fe] px-4 py-2'>{remoteOrOnsite === 'Remote' ? "Remote" : "Onsite"}</button>
                     <button className='border border-[#7e90fe] px-4 py-2'>{fullOrPartTime === 'Part-time' ? "Part-time" : "Full-time"}</button>
                 </div>
                 <div className='flex gap-6 items-center mb-6'>

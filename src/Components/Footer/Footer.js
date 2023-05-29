@@ -4,7 +4,7 @@ import { CiFacebook, CiInstagram, CiTwitter } from "react-icons/ci";
 const Footer = () => {
     return (
         <div className='lg:px-72 bg-[#1a1919] pt-32'>
-            <div className='flex gap-32 mb-12'>
+            <div className='flex justify-between mb-12'>
                 < div>
                     <h2 className='text-white mb-5 text-3xl font-semibold'>CareerHub</h2>
                     <p className='mb-5 text-[rgba(255,255,255,0.7)]'>
