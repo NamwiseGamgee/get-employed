@@ -2,7 +2,9 @@ import React from 'react';
 import { useLoaderData, useNavigate } from 'react-router-dom';
 import { BsCoin, BsPersonWorkspace, BsFillTelephoneFill } from "react-icons/bs";
 import { MdEmail, MdLocationOn } from "react-icons/md";
+import { IoIosCheckmarkCircle } from "react-icons/io";
 import { setToLocalStorage } from '../../Utilities/fakeDb';
+import { Toaster, toast } from 'react-hot-toast';
 
 const ViewDetails = () => {
     const details = useLoaderData();
@@ -15,6 +17,8 @@ const ViewDetails = () => {
 
     const handleApplyNow = (id) => {
         setToLocalStorage(id);
+        toast.success("You have applied for the job");
+        /* toast.custom(<div className=''>You have applied for the job <IoIosCheckmarkCircle></IoIosCheckmarkCircle></div>); */
     }
 
     return (
