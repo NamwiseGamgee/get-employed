@@ -11,7 +11,7 @@ const Header = () => {
             <div className='pt-16 lg:mx-72 flex justify-between items-center pb-12'>
                 <div>
                     <Link to='/'>
-                    <img src={img} alt="" />
+                    <button className='text-4xl font-semibold'>getEmployed</button>
                     </Link>
                 </div>
                 <nav className='flex gap-10 text-[#757575] font-medium'>

@@ -18,7 +18,12 @@ const getPreviousCart = () => {
     return cart;
 }
 
+const removeCart = () => {
+    localStorage.removeItem('appliedCart');
+}
+
 export {
     setToLocalStorage,
     getPreviousCart,
+    removeCart,
 }
