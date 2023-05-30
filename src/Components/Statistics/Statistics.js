@@ -10,10 +10,10 @@ const Statistics = () => {
             <div className='my-20 text-center'>
                 <h2 className='text-3xl font-semibold mb-5'>A randomly generated BarChart for some of my imaginary assignment marks</h2>
                 <BarChart className='mx-auto' width={1000} height={500} data={assData}>
-                    <Bar dataKey='mark' fill='#93aeef'></Bar>
+                    <Bar dataKey='mark' fill='#2E8B57'></Bar>
                     <XAxis dataKey='assignmentNo'></XAxis>
                     <YAxis dataKey='mark'></YAxis>
-                    <Tooltip cursor={{ fill: '#516bef' }}></Tooltip>
+                    <Tooltip cursor={{ fill: '#516bef', fillOpacity: 0.7 }}></Tooltip>
                 </BarChart>
             </div>
             <div className='my-20 text-center'>

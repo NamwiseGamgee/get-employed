@@ -14,13 +14,15 @@ import AppliedJobs from './Components/AppliedJobs/AppliedJobs';
 import Blogs from './Components/Blogs/Blogs';
 import FeaturedJobs from './Components/FeaturedJobs/FeaturedJobs';
 import ViewDetails from './Components/ViewDetails/ViewDetails';
-
+import { ThemeProvider } from "@material-tailwind/react";
+import ErrorPage from './Components/ErrorPage/ErrorPage';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
 const router = createBrowserRouter([
   {
     path: '/',
+    errorElement: <ErrorPage></ErrorPage>,
     element: <Layout></Layout>,
     children: [
       {
@@ -35,7 +37,7 @@ const router = createBrowserRouter([
       {
         path: '/:jobId',
         element: <ViewDetails></ViewDetails>,
-        loader: async ({params}) => {
+        loader: async ({ params }) => {
           const res = await fetch('/featuredJobs.json');
           const data = await res.json();
           const indiData = data.find(d => d.id == params.jobId);
@@ -66,7 +68,10 @@ const router = createBrowserRouter([
 
 root.render(
   <React.StrictMode>
-    <RouterProvider router={router}></RouterProvider>
+
+    <ThemeProvider>
+      <RouterProvider router={router}></RouterProvider>
+    </ThemeProvider>
   </React.StrictMode>
 );
 

@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { useLoaderData } from 'react-router-dom';
+import './FeaturedJobs.css';
 import SingleJob from '../SingleJob/SingleJob';
 
 const FeaturedJobs = () => {
@@ -36,7 +37,7 @@ const FeaturedJobs = () => {
                 }
             </div>
             <div className={`text-center ${showAllJobs ? 'hidden' : ''}`}>
-                <button onClick={seeAllJobsHandler} className='font-semibold text-xl text-white py-5 px-5 bg-[#7e90fe] rounded-lg'>See All Jobs</button>
+                <button onClick={seeAllJobsHandler} className='see-all-jobs'>See All Jobs</button>
             </div>
         </div>
     );

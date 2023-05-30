@@ -1,6 +1,5 @@
 import React from 'react';
-import './Header.css'
-import img from '../../Assets/All Images/CareerHub.png';
+import './Header.css';
 import { Link } from 'react-router-dom';
 import ActiveLink from '../ActiveLink/ActiveLink';
 
@@ -20,7 +19,7 @@ const Header = () => {
                     <ActiveLink to='/blogs'>Blogs</ActiveLink>
                 </nav>
                 <div>
-                    <button className='font-extrabold text-xl text-white py-5 px-7 bg-[#7e90fe] rounded-lg'>Apply Now</button>
+                    <Link to='*' className='btn btn-1 btn-1e'>See Error Page</Link>
                 </div>
             </div>
             
