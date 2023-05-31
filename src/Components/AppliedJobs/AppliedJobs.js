@@ -64,11 +64,11 @@ const AppliedJobs = () => {
     }
     return (
         <div>
-            <div className='bg-[#f9f9ff] pb-36 mb-32'>
+            <div className='bg-[#f9f9ff] pb-36 md:mb-32 mb-9'>
                 <h2 className='text-center text-[#1a1919] text-4xl font-bold'>Applied Jobs</h2>
             </div>
             <div className='flex justify-center gap-3 mb-20'>
-                <div className='flex justify-center gap-28'>
+                <div className='flex justify-center gap-2 md:gap-28'>
                     <div className="dropdown pb-14">
                         <button className="dropbtn">Filter</button>
                         <div className="dropdown-content">
@@ -86,7 +86,7 @@ const AppliedJobs = () => {
                     </div>
                 </div>
             </div>
-            <div className='flex flex-col items-center'>
+            <div className='px-5 flex flex-col items-center'>
                 {
                     filteredJobs.map(job => <JobCart
                         key={job.id}

@@ -14,7 +14,7 @@ const Blogs = () => {
         setOpen(open === value ? 0 : value);
     };
     return (
-        <div className='lg:mx-72 mt-28 mb-32'>
+        <div className='lg:mx-72 px-5 mt-28 mb-32'>
             <Fragment>
                 <Accordion
                     open={open === 1}
