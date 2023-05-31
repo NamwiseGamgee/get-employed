@@ -178,6 +178,186 @@
         "email": "ispahani@bd.co",
         "phone": "547-564-1360"
       }
-    }
+    },
+    {
+      "id": 11,
+      "companyLogo": "Logo/id11.jpeg",
+      "jobTitle": "Software Engineer",
+      "companyName": "ABC Tech",
+      "remoteOrOnsite": "Onsite",
+      "location": "San Francisco, CA",
+      "fullOrPartTime": "Full-time",
+      "salary": "$80,000 - $100,000",
+      "jobDescription": "Develop and maintain software applications for our clients.",
+      "jobResponsibility": "Design, code, test, and debug software programs.",
+      "educationalRequirements": "Bachelor's degree in Computer Science or related field",
+      "experiences": "Minimum 3 years of experience as a Software Engineer",
+      "contactInformation": {
+        "email": "jobs@abc-tech.com",
+        "phone": "123-456-7890"
+      }
+    },
+    {
+      "id": 12,
+      "companyLogo": "Logo/id12.jpeg",
+      "jobTitle": "Marketing Manager",
+      "companyName": "XYZ Corporation",
+      "remoteOrOnsite": "Onsite",
+      "location": "New York, NY",
+      "fullOrPartTime": "Full-time",
+      "salary": "$70,000 - $90,000",
+      "jobDescription": "Develop and implement marketing strategies to promote our products.",
+      "jobResponsibility": "Create and manage marketing campaigns, analyze market trends, and oversee marketing team.",
+      "educationalRequirements": "Bachelor's degree in Marketing or related field",
+      "experiences": "Minimum 5 years of experience in marketing",
+      "contactInformation": {
+        "email": "info@xyzcorp.com",
+        "phone": "987-654-3210"
+      }
+    },
+    {
+      "id": 13,
+      "companyLogo": "Logo/id13.jpeg",
+      "jobTitle": "Graphic Designer",
+      "companyName": "Design Studio",
+      "remoteOrOnsite": "Onsite",
+      "location": "London, UK",
+      "fullOrPartTime": "Part-time",
+      "salary": "$30 - $40 per hour",
+      "jobDescription": "Create visual concepts and design assets for various projects.",
+      "jobResponsibility": "Develop design briefs, collaborate with clients, and produce high-quality designs.",
+      "educationalRequirements": "Bachelor's degree in Graphic Design or related field",
+      "experiences": "Minimum 2 years of experience as a Graphic Designer",
+      "contactInformation": {
+        "email": "hello@designstudio.com",
+        "phone": "555-123-4567"
+      }
+    },
+    {
+      "id": 14,
+      "companyLogo": "Logo/id14.jpeg",
+      "jobTitle": "Sales Representative",
+      "companyName": "Sales Solutions",
+      "remoteOrOnsite": "Onsite",
+      "location": "Chicago, IL",
+      "fullOrPartTime": "Full-time",
+      "salary": "$50,000 - $70,000",
+      "jobDescription": "Promote and sell our products to potential customers.",
+      "jobResponsibility": "Identify sales opportunities, build relationships with clients, and achieve sales targets.",
+      "educationalRequirements": "High school diploma or equivalent",
+      "experiences": "Minimum 1 year of experience in sales",
+      "contactInformation":{
+        "email": "hello@designstudio.com",
+        "phone": "555-123-4567"
+      }
+    },
+    {
+      "id": 15,
+      "companyLogo": "Logo/id15.jpeg",
+      "jobTitle": "Content Writer",
+      "companyName": "Content Co.",
+      "remoteOrOnsite": "Remote",
+      "location": "Anywhere",
+      "fullOrPartTime": "Part-time",
+      "salary": "$20 - $30 per hour",
+      "jobDescription": "Create engaging and informative content for various platforms.",
+      "jobResponsibility": "Write articles, blog posts, and social media content.",
+      "educationalRequirements": "Bachelor's degree in English, Journalism, or related field",
+      "experiences": "Minimum 2 years of experience in content writing",
+      "contactInformation": {
+        "email": "info@contentco.com",
+        "phone": "111-222-3333"
+      }
+    },
+    {
+      "id": 16,
+      "companyLogo": "Logo/id16.jpeg",
+      "jobTitle": "Customer Support Specialist",
+      "companyName": "Support Services",
+      "remoteOrOnsite": "Remote",
+      "location": "Anywhere",
+      "fullOrPartTime": "Part-time",
+      "salary": "$15 - $20 per hour",
+      "jobDescription": "Assist customers with inquiries, troubleshoot issues, and provide solutions.",
+      "jobResponsibility": "Respond to customer inquiries via phone, email, or chat.",
+      "educationalRequirements": "High school diploma or equivalent",
+      "experiences": "Minimum 1 year of customer support experience",
+      "contactInformation": {
+        "email": "support@supportservices.com",
+        "phone": "444-555-6666"
+      }
+    },
+    {
+      "id": 17,
+      "companyLogo": "Logo/id17.jpeg",
+      "jobTitle": "Data Analyst",
+      "companyName": "Data Insights",
+      "remoteOrOnsite": "Remote",
+      "location": "Anywhere",
+      "fullOrPartTime": "Part-time",
+      "salary": "$25 - $35 per hour",
+      "jobDescription": "Collect, analyze, and interpret data to provide insights and support decision-making.",
+      "jobResponsibility": "Develop data models, perform statistical analysis, and create data visualizations.",
+      "educationalRequirements": "Bachelor's degree in Statistics, Mathematics, or related field",
+      "experiences": "Minimum 3 years of experience as a Data Analyst",
+      "contactInformation": {
+        "email": "jobs@datainsights.com",
+        "phone": "777-888-9999"
+      }
+    },
+    {
+      "id": 18,
+      "companyLogo": "Logo/id18.jpeg",
+      "jobTitle": "Social Media Manager",
+      "companyName": "Social Buzz",
+      "remoteOrOnsite": "Remote",
+      "location": "Anywhere",
+      "fullOrPartTime": "Part-time",
+      "salary": "$25 - $40 per hour",
+      "jobDescription": "Manage and grow social media presence for clients.",
+      "jobResponsibility": "Develop social media strategies, create content, and engage with the audience.",
+      "educationalRequirements": "Bachelor's degree in Marketing, Communications, or related field",
+      "experiences": "Minimum 2 years of experience in social media",
+      "contactInformation": {
+        "email": "jobs@datainsights.com",
+        "phone": "777-888-9999"
+      }
+    },
+    {
+      "id": 19,
+      "companyLogo": "Logo/id19.jpeg",
+      "jobTitle": "Web Developer",
+      "companyName": "Web Solutions",
+      "remoteOrOnsite": "Remote",
+      "location": "Anywhere",
+      "fullOrPartTime": "Part-time",
+      "salary": "$30 - $50 per hour",
+      "jobDescription": "Design and develop responsive websites and web applications.",
+      "jobResponsibility": "Write clean and efficient code, collaborate with the design team, and troubleshoot issues.",
+      "educationalRequirements": "Bachelor's degree in Computer Science or related field",
+      "experiences": "Minimum 3 years of experience as a Web Developer",
+      "contactInformation": {
+        "email": "jobs@websolutions.com",
+        "phone": "999-888-7777"
+      }
+    },
+    {
+      "id": 20,
+      "companyLogo": "Logo/id20.jpeg",
+      "jobTitle": "Translator",
+      "companyName": "Global Translations",
+      "remoteOrOnsite": "Remote",
+      "location": "Anywhere",
+      "fullOrPartTime": "Part-time",
+      "salary": "$20 - $25 per hour",
+      "jobDescription": "Translate written materials from one language to another accurately and efficiently.",
+      "jobResponsibility": "Translate documents, emails, and other written content.",
+      "educationalRequirements": "Fluency in multiple languages, formal training in translation preferred",
+      "experiences": "Minimum 2 years of experience as a Translator",
+      "contactInformation": {
+        "email": "translations@globaltranslations.com",
+        "phone": "777-666-5555"
+      }
+    }    
   ]
   

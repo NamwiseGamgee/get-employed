@@ -48,7 +48,7 @@ const ViewDetails = () => {
                             <hr className='my-6' />
                             <div className='flex items-center gap-2 mb-4'>
                                 <BsCoin></BsCoin>
-                                <h2>Salary : {salary} /month</h2>
+                                <h2>Salary : {salary} </h2>
                             </div>
                             <div className='flex items-center gap-2 mb-4'>
                                 <BsPersonWorkspace></BsPersonWorkspace>
