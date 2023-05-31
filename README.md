@@ -1,3 +1,6 @@
+# You can see the deployed version on Netlify here : https://regal-treacle-47fc85.netlify.app/
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
