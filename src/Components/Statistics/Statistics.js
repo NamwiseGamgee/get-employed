@@ -29,7 +29,7 @@ const Statistics = () => {
             window.removeEventListener('resize', handleResize);
         };
     }, []);
-    console.log("Chart width:", chartWidth);
+    // console.log("Chart width:", chartWidth);
     return (
         <div className='sm:px-5 lg:px-0'>
             <div className='my-20 text-center'>

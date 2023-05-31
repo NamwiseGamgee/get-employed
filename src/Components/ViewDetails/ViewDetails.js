@@ -1,4 +1,5 @@
 import React from 'react';
+import './ViewDetails.css'
 import { useLoaderData, useNavigate } from 'react-router-dom';
 import { BsCoin, BsPersonWorkspace, BsFillTelephoneFill } from "react-icons/bs";
 import { MdEmail, MdLocationOn } from "react-icons/md";
@@ -23,14 +24,13 @@ const ViewDetails = () => {
 
     return (
         <div>
-            <div className='bg-[#f9f9ff] pb-36 mb-32'>
-                <h2 className='text-center text-[#1a1919] text-4xl font-bold'>{jobTitle}</h2>
-
+            <div className='bg-[#f9f9ff] pb-5 mb-5 md:pb-36 md:mb-32'>
+                <h2 className='text-center text-xl text-[#1a1919] md:text-4xl font-bold'>{jobTitle}</h2>
             </div>
-            <div className='lg:mx-72 flex gap-7 items-center justify-around mb-32'>
+            <div className='md:p-3 lg:mx-72 flex flex-col md:flex-row gap-7 items-center justify-around mb-5 md:mb-32'>
                 <div className='w-2/3'>
                     <div className='pb-8'>
-                        <button onClick={handleGoBack} className='font-extrabold  text-white py-1 px-1 bg-[#7e90fe] rounded-lg'>Go back</button>
+                        <button onClick={handleGoBack} className='btn-transition font-extrabold  text-white py-1 px-1 bg-[#7e90fe] rounded hover:bg-[#9BABB8]'>Go back</button>
                     </div>
                     <h2 className='mb-6'><span className='text-[#1a1919] font-semibold text-lg'>Job Description: </span> <span className='text-[#757575] font-medium'>{jobDescription}</span></h2>
 
@@ -72,7 +72,7 @@ const ViewDetails = () => {
                             </div>
                         </div>
                         <div className='text-center'>
-                            <button onClick={() => handleApplyNow(id)} className='font-extrabold text-xl text-white py-3 px-5 bg-[#7e90fe] rounded-lg'>Apply Now</button>
+                            <button onClick={() => handleApplyNow(id)} className='btn-transition font-extrabold text-xl text-white py-3 px-5 bg-[#7e90fe] rounded-lg'>Apply Now</button>
                         </div>
                     </div>
 

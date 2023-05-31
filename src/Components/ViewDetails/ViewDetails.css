@@ -1,0 +1,7 @@
+.btn-transition:hover {
+    transition: 0.3s;
+    background: seagreen;
+}
+.btn-transition {
+    transition: 0.3s;
+}
