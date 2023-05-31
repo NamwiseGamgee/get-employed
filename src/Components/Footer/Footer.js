@@ -3,8 +3,8 @@ import './Footer.css'
 import { CiFacebook, CiInstagram, CiTwitter } from "react-icons/ci";
 const Footer = () => {
     return (
-        <div className='lg:px-72 bg-[#1a1919] pt-32'>
-            <div className='flex justify-between mb-12'>
+        <div className='lg:px-72 px-5 bg-[#1a1919] pt-4 md:pt-32'>
+            <div className='flex flex-col md:flex-row md:justify-between mb-12'>
                 < div>
                     <h2 className='text-white mb-5 text-3xl font-semibold'>getEmployed</h2>
                     <p className='mb-5 text-[rgba(255,255,255,0.7)]'>
@@ -43,7 +43,7 @@ const Footer = () => {
                     <h2 className='text-[rgba(255,255,255,0.7)]'>+11777-4555-652</h2>
                 </div>
             </div>
-            <hr className='pb-52' />
+            <hr className='pb-3 md:pb-52' />
         </div>
     );
 };

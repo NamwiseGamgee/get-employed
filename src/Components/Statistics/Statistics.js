@@ -4,9 +4,9 @@ import { RadarChart, PolarAngleAxis, PolarRadiusAxis, PolarGrid, Legend, Radar, 
 
 const Statistics = () => {
     const assData = useLoaderData();
-    console.log(assData);
+    // console.log(assData);
     return (
-        <div>
+        <div className='sm:px-5 lg:px-0'>
             <div className='my-20 text-center'>
                 <h2 className='text-3xl font-semibold mb-5'>A randomly generated BarChart for some of my imaginary assignment marks</h2>
                 <BarChart className='mx-auto' width={1000} height={500} data={assData}>

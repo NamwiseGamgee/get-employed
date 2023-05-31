@@ -28,7 +28,7 @@ const FeaturedJobs = () => {
 
     return (
         <div>
-            <div className='grid grid-cols-2 lg:mx-72 gap-6 mb-10'>
+            <div className='grid grid-col-1 md:grid-cols-2 lg:mx-72 gap-6 mb-10'>
                 {
                     displayedJobs.map(job => <SingleJob
                         key={job.id}
